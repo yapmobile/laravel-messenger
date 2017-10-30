@@ -38,6 +38,8 @@ class Message extends Eloquent
      */
     protected $dates = ['deleted_at'];
 
+    protected $hidden = ['user_id'];
+
     /**
      * {@inheritDoc}
      */
